@@ -55,7 +55,7 @@ let weather = {
 
     submitBtn.addEventListener("click", function() {
         testData.push(newData);
-        console.log(testData);
+        console.table(testData);
         
         // weather.push(newData);
         // console.log(weather);

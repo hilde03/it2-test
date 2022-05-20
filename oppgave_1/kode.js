@@ -15,7 +15,7 @@ let mailOutput = document.getElementById("mailOutput");
 //     lastNameInput.value = "aa";
 // } else if (firstNameInput.value === "@" || lastNameInput.value === "@") {
 //     alert("@ er ikke lov!");
-// } (lagde først dette, men tror jeg må ta det i en funksjon, som jeg lagde under)
+// } (lagde først dette, men innså jeg må ta det i en funksjon, som jeg lagde under)
     
 // lager en funksjon som sjekker om det innehodler æ, å, ø
 function checkForAeOeAa() {
