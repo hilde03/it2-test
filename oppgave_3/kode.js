@@ -16,7 +16,6 @@ ssdDiv.addEventListener("click", function() {
     let ssdImg = document.createElement("img");
     ssdImg.src = "bilder/ssd.png";
     infoDiv.appendChild(ssdImg);
-
 });
 
 nvmeDiv.addEventListener("click", function() {
@@ -27,3 +26,10 @@ nvmeDiv.addEventListener("click", function() {
 });
 
 // https://moonbooks.org/Articles/How-to-add-an-image-in-a-HTML-page-using-javascript-/ (for å legge inn bildene)
+
+
+hddDiv.addEventListener("click", changeText);
+
+function changeText() {
+    div.innerHTML = "lorem ipsum";
+};

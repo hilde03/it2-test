@@ -1,9 +1,21 @@
+#topSection {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+/* https://www.w3schools.com/css/css_image_transparency.asp */
 div {
     border-color: red;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between; */
+    color: black;
+    opacity: 1;
+    width: 100px;
+    height: 100px;
+    float: left;
 
 }
 /* https://www.w3schools.com/cssref/pr_border-color.asp */
+
 
