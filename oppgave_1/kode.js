@@ -46,3 +46,5 @@ submitBtn.addEventListener("click", function() {
     checkForAeOeAa();
 });
 
+// har byttet til å skrive på engelsk i koden fordi jeg har opplevd litt problemer med å skrive på norsk.
+// har litt lett for å glemme meg og skrive æ, å, ø

@@ -55,3 +55,20 @@ function displayHighestTemperature(weather) {
 
 displayHighestTemperature(weather.verdataBergen);
 displayHighestTemperature(weather.verdataVoss);
+
+// funksjon som viser laveste temperatur fra bergen og voss
+
+function displayLowestTemperature(weather) {
+    let min = 100;
+    let minId = "";
+    for (let i = 0; i < weather.length; i++) {
+        if (weather[i].temperaturLow < min) {
+            min = weather[i].temperaturLow;
+            minId = weather[i].id;
+        }
+    }
+    console.log("Stedet med laveste temperatur er " + minId + " med " + min + " grader.");
+}
+
+displayLowestTemperature(weather.verdataBergen);
+displayLowestTemperature(weather.verdataVoss);
