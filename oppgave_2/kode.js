@@ -10,14 +10,28 @@ document.querySelector("div").addEventListener("click", function () {
 
 // https://www.geeksforgeeks.org/how-to-change-background-color-of-a-div-on-mouse-move-over-using-javascript/
 
+
+// function changeColor() {
+    //     for (let i = 0; i < divs.length; i++) {
+        //         divs[i].style.background = "blue";
+        //         divs[i].style.width = "150px";
+        //         divs[i].style.height = "150px";
+        //     }
+        // }
+        
+        // changeColor();
+        
 //  funksjon som endrer farge og størrelse på divs
 
-function changeColor() {
+function changeColor(color, width, height) {
     for (let i = 0; i < divs.length; i++) {
-        divs[i].style.background = "blue";
-        divs[i].style.width = "150px";
-        divs[i].style.height = "150px";
+        divs[i].style.background = color;
+        divs[i].style.width = width;
+        divs[i].style.height = height;
     }
 }
 
-changeColor();
+changeColor("purple", "150px", "150px");
+
+// https://www.codegrepper.com/code-examples/javascript/change+color+of+element+javascript
+// https://stackoverflow.com/questions/41929976/change-elements-background-color-in-javascript
