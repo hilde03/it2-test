@@ -7,7 +7,26 @@
         <title>Oppgave 4</title>
     </head>
     <body>
+        <h1>Oppgave 4</h1>
+
+        <label for="By">Velg en by:</label>
+            <select name="By" id="locationDrop">
+                <option value="Bergen">Bergen</option>
+                <option value="Voss">Voss</option>
+            </select>
+        <input type="text" id="weekInput" placeholder="Uke">
+        <input type="text" id="dayInput" placeholder="Dag">
+        <input type="text" id="rainInput" placeholder="Nedbør">
+        <input type="text" id="tempHighInput" placeholder="Høyeste temperatur">
+        <input type="text" id="tempLowInput" placeholder="Laveste temperatur">
+
+        <button id="submitBtn">Send</button>
+
+        <div id="weatherOutput">
+            <!-- Her skal været bli vist -->
         
         <script src="kode.js"></script>
     </body>
 </html>
+
+<!-- https://www.w3schools.com/tags/tag_select.asp -->
