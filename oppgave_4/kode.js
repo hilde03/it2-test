@@ -47,14 +47,19 @@ let weather = {
         ] 
     };
 
+    let testData = [];
 
     let newData = {
         "id" : locationInput.value, "veke": weekInput.value, "dag": dayInput.value, "nedbørsmengde": rainInput.value, "temperaturHigh": tempHighInput.value, "temperaturLow": tempLowInput.value
     };
 
     submitBtn.addEventListener("click", function() {
-        weather.push(newData);
-        console.log(weather);
+        testData.push(newData);
+        console.log(testData);
+        
+        // weather.push(newData);
+        // console.log(weather);
+        // klarer å logge testDataen, men får ikke til å legge data inn i hoved-arrayen
     });
 
 // funksjon som viser høyeste temperatur fra bergen og voss
