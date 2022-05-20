@@ -1,5 +1,11 @@
+body {
+    background-color: violet;
+    justify-content: space-evenly;
+}
+
 #topSection {
     background-color: rgba(255, 0, 0, 0.8);
+    width: 100%;
 }
 /* https://www.w3schools.com/css/css_image_transparency.asp */
 div {
@@ -13,8 +19,24 @@ div {
     width: 100px;
     height: 100px;
     float: left;
-
+    background-color: rgba(0, 255, 4, 0.6);
+    justify-content: space-around;
+    align-items: space-around;
 }
 /* https://www.w3schools.com/cssref/pr_border-color.asp */
 
+#infoDiv {
+    background-color: rgba(0, 0, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
+img {
+    width: 200px;
+    height: 200px;
+}
